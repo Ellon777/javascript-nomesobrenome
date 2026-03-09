@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <title>JavaScript - Nome e Sobrenome</title>
+    </head>
+    <body>
+        <h1>Entrada, Processamento e Saída</h1>
+        <form id="nomes" action="" method="get">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Entre com o seu nome." tabindex="1" />
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" placeholder="Entre com o seu sobrenome." tabindex="2" />
+        </form>
+        <!-- #region Botão Juntar -->
+        <button id="juntar" onclick="juntarNome()" tabindex="3">Juntar</button>
+        <!-- #endregion -->
+        
+        <hr />
+        <br />
+        <p>Nome Completo: (innerText)</p>
+        <p id="nomecompleto">Vai aparecer o nome completo aqui.</p>
+        <p>Nome Completo: (innerHTML)</p>
+        <p id="nomecompleto1">Vai aparecer o nome completo aqui.</p>
+        <p>Nome Completo: (textContent)</p>
+        <p id="nomecompleto2">Vai aparecer o nome completo aqui.</p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - Nome e Sobrenome</title>
-</head>
-
-<body>
-    <h1></h1>
-
-
-
-
-</body>
-
+        <script type="text/JavaScript" src="js/utilidades.js"></script>
+    </body>
 </html>
