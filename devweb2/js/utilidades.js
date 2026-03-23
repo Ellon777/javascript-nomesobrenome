@@ -97,3 +97,9 @@ function mostrarLog(n,s) {
 function alerta() {
     window.alert("Enquanto não fechar esta janela, \nnão será mostrado o nome completo.");
 }
+
+// Função Imprimir
+function imprimir() {
+    const url = 'https://catfriendly.com/wp-content/uploads/2016/08/catcare-kittenfirstyear.jpg';
+    window.open(url, '_blank');
+  }

@@ -35,6 +35,6 @@ label, input[text], button {
     margin-top: 5px;
 }
 
-#nomecompleto, #nomecompleto1, #nomecompleto2 {
+#nomecompleto, #nomecompleto1 {
     font-weight: bold;
 }
